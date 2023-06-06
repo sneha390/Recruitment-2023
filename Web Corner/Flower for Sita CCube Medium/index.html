@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Identification</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Flower Identification</h1>
+  
+
+<section>
+  <div class="container" id="container">
+    <button id="fileUpload">UPLOAD FILE</button>
+  </div>
+<div class="table-container">
+  <h1 class="heading">DETAILS</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th >Scientific Name</th>
+        <th >Kingdom</th>
+        <th >Phylum</th>
+        <th >Class</th>
+        <th >Family</th>
+        <th >Genus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <tr bgcolor="lightgrey">
+          <td id="scientificName">---</td>
+          <td id="kingdom">---</td>
+          <td id="phylum">---</td>
+          <td id="class">---</td>
+          <td id="family">---</td>
+          <td id="genus">---</td>
+        </tr>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./plantAPI.js"></script>
+  <script src="./script.js"></script>
